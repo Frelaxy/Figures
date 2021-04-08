@@ -6,7 +6,7 @@ public class Rectangle extends TwoDShapes {
     }
 
     public Rectangle(double width, double height) {
-        super(width, height,"Прямоугольник");
+        super(width, height, "Прямоугольник");
     }
 
     public Rectangle(double x) {
@@ -21,8 +21,13 @@ public class Rectangle extends TwoDShapes {
         if (getWidth() == getHeight()) return true;
         else return false;
     }
+
     @Override
-    double area() {
+    public double area() {
         return getHeight() * getWidth();
+    }
+
+    public void showDim() {
+        System.out.println("Ширина и высота - " + getWidth() + " и " + getHeight());
     }
 }

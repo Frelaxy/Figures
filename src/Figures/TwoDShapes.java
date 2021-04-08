@@ -50,9 +50,7 @@ abstract class TwoDShapes {
         this.name = name;
     }
 
-    void showDim(){
-        System.out.println("Ширина и высота - " + width + " и " + height);
-    }
+    public abstract void showDim();
 
-    abstract double area();
+    public abstract double area();
 }

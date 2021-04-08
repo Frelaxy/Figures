@@ -24,12 +24,12 @@ public class Circle extends TwoDShapes{
     }
 
     @Override
-    double area() {
+    public double area() {
         return radius * radius * 3.14;
     }
 
     @Override
-    void showDim() {
+    public void showDim() {
         System.out.println("Круг " + style);;
     }
 }

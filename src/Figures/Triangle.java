@@ -24,12 +24,12 @@ public class Triangle extends TwoDShapes {
     }
 
     @Override
-    double area() {
+    public double area() {
         return getWidth() * getHeight() / 2;
     }
 
     @Override
-    void showDim() {
+    public void showDim() {
         System.out.println("Треугольник " + style);
     }
 }
