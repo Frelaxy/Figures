@@ -1,6 +1,6 @@
 package Figures;
 
-public class Rectangle extends TwoDShapes {
+public class Rectangle extends TwoDShapes implements Shapes {
 
     public Rectangle() {
         super();
@@ -28,6 +28,7 @@ public class Rectangle extends TwoDShapes {
         return getHeight() * getWidth();
     }
 
+    @Override
     public void showDim() {
         System.out.println("Ширина и высота - " + getWidth() + " и " + getHeight());
     }

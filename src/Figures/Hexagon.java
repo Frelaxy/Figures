@@ -1,6 +1,6 @@
 package Figures;
 
-public class Hexagon extends TwoDShapes{
+public class Hexagon extends TwoDShapes implements Shapes{
 
     private double side;
     private double howManySides;

@@ -1,6 +1,6 @@
 package Figures;
 
-public class Circle extends TwoDShapes{
+public class Circle extends TwoDShapes implements Shapes{
 
     private double radius;
     private String style;
@@ -28,6 +28,6 @@ public class Circle extends TwoDShapes{
 
     @Override
     public void showDim() {
-        System.out.println("Круг " + style);;
+        System.out.println("Круг " + style);
     }
 }

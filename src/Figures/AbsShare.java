@@ -1,6 +1,6 @@
 package Figures;
 
-class AbsShare {
+class AbsShare{
     public static void main(String[] args) {
         TwoDShapes shapes[] = new TwoDShapes[8];
         shapes[0] = new Triangle(8.0, 12.0, "контурный");

@@ -1,6 +1,6 @@
 package Figures;
 
-abstract class TwoDShapes {
+abstract class TwoDShapes implements Shapes{
     private double width;
     private double height;
     private String name;
@@ -50,7 +50,5 @@ abstract class TwoDShapes {
         this.name = name;
     }
 
-    public abstract void showDim();
 
-    public abstract double area();
 }

@@ -1,6 +1,6 @@
 package Figures;
 
-public class Triangle extends TwoDShapes {
+public class Triangle extends TwoDShapes{
     private String style;
 
     Triangle(){
