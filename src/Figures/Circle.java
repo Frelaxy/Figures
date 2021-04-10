@@ -7,8 +7,6 @@ public class Circle extends TwoDShapes{
 
     public Circle() {
         super();
-        this.radius = 0.0;
-        this.style = "none";
     }
 
     public Circle(int radius) {

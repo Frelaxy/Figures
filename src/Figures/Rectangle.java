@@ -1,6 +1,7 @@
 package Figures;
 
 public class Rectangle extends TwoDShapes {
+
     public Rectangle() {
         super();
     }

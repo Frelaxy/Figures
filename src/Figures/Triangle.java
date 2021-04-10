@@ -5,7 +5,6 @@ public class Triangle extends TwoDShapes {
 
     Triangle(){
         super();
-        style = "none";
     }
 
     public Triangle(double width, double height, String style) {
